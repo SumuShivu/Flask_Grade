@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Prediction</title>
+</head>
+<body>
+    <h1>Student Grade Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="roll_no">Roll Number:</label><br>
+        <input type="text" id="roll_no" name="roll_no" required><br><br>
+
+        <label for="ct1">Class Test 1 Marks (out of 20):</label><br>
+        <input type="text" id="ct1" name="ct1"  required><br><br>
+
+        <label for="ct2">Class Test 2 Marks (out of 20):</label><br>
+        <input type="text" id="ct2" name="ct2"  required><br><br>
+
+        <label for="sport">Sports Marks (out of 10):</label><br>
+        <input type="text" id="sport" name="sport"  required><br><br>
+
+        <label for="cca">CCA Marks (out of 10):</label><br>
+        <input type="text" id="cca" name="cca" required><br><br>
+
+        <label for="attend">Attendance Marks (out of 10):</label><br>
+        <input type="text" id="attend" name="attend"  required><br><br>
+
+        <label for="em">Exam Marks (out of 50):</label><br>
+        <input type="number" id="em" name="em"  required><br><br>
+
+        <a href="result.html">Predict Grade</a>
+    </form>
+</body>
+</html>
